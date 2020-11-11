@@ -1,0 +1,45 @@
+.img-home img{
+    filter: brightness(40%);
+}
+
+
+.my-card a{
+    padding: 10px;
+    text-decoration: none;
+    width: 100%;
+}
+
+.my-card a:hover{
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: box-shadow ease-in-out 0.30s;
+}
+
+.card-text{
+    text-align: justify;
+    background-image: linear-gradient(to right, rgb(0,0,0), rgb(30,30,30));
+    color: #fff;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+@media(max-width: 500px){
+    .row img{
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+        padding: 0px;
+    }
+}
+
+/* testei esse código para ajustar as imagens conforme o tamanho da tela mas não deu certo
+ainda sim vou manter ele aqui, caso eu vá usar
+@media(min-width: 500px){
+    .img-resp{
+        max-width: 100%;
+        min-height: 60vh;
+        margin: 0 auto;
+        padding: 0px;
+    }
+}
+*/

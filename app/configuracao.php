@@ -9,7 +9,7 @@
 //define e const — Define uma constante. As constantes não podem ser alteradas depois de declaradas.
 define('APP', dirname(__FILE__));
 
-define('URL','http://localhost/valentimconsultoria');
+define('URL','http://192.168.99.173/valentimconsultoria');
 
 define('APP_NOME','Valentim Consultoria');
 
