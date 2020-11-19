@@ -40,7 +40,7 @@
     </div>
 </div>
 
-<div class="container-fluid">
+<div class="container-fluid text-justify">
 
     <div class="container">
         <div class="row" id="content-palestras" style="margin-top: 10px;">
@@ -136,9 +136,7 @@
                 </p>
             </div>
             <div class="col-12" id="cursos">
-                <h2 class="h2">
-                Cursos/Treinamentos
-                </h2>
+                <h2 class="h2">Cursos/Treinamentos</h2>
                 <p>
                     <ul>
                         <li>Abertos</li>
@@ -168,6 +166,12 @@
                 <P>Nossa metodologia para estes eventos é diferenciada e os participantes são mais que meros expectadores; todos atuam em dinâmicas de grupo, exercícios coletivos e games temáticos o tempo todo. Além do dinamismo que isso proporciona, a fixação dos conteúdos torna-se mais fácil e duradoura.</p>
                 <p>Por acreditarmos não ser possível separar o profissional do ser humano, procuramos sempre trabalhar com o emocional das pessoas, e não somente com o racional, criando um ambiente propício para o aprendizado onde, por vezes, os participantes de nossos programas riem, vibram e se emocionam.</p>
                 <p>Estes eventos podem contar com um ou mais temas, combinados e estruturados para melhor desenvolver competências estratégicas de:</p>
+                <ul>
+                    <li>Autodesenvolvimento;</li>
+                    <li>Competências Interpessoais (Assertividade, Times de Aprendizagem, Desenvolvimento de Equipes e Integração Organizacional, entre outros);</li>
+                    <li>Competências Específicas (Administração do Tempo, Atendimento ao Cliente, Multiplicadores Internos, Reuniões Eficazes);</li>
+                    <li>Gestão e Liderança (Desenvolvimento Gerencial, Liderança de Equipes).</li>
+                </ul>
             </div>
         </div>
     </div>
