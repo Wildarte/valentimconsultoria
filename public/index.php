@@ -45,7 +45,15 @@ include './../app/Libraries/Controller.php';
     <script src="<?=URL?>/public/js/scripts.js"></script>
     <script src="<?=URL?>/public/js/themejs.js"></script>
     <script>
-      
+        $(document).ready(function(){
+
+            $('#btn-palestras').click(function(){
+
+                $(this).siblings('#content-palestras').slideToggle();
+
+            })
+
+        })
     </script>
 </body>
 </html>
