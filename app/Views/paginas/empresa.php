@@ -6,7 +6,11 @@
   <p class="text-center"><a href="#quemsomos" class="js-scroll-trigger"><img style="width: 20vh;" src="<?=URL?>/public/img/arrowdown.gif" alt=""></p></a>
 </div>
 
-<div class="container-fluid"  id="quemsomos" style="padding: 0px">
+<div class="container-fluid"  id="quemsomos">
+
+    <div class="row">
+        
+    </div>
     
     <div class="row">
         <div class="col-md-6 my-0" style="background-image: linear-gradient(to right, rgb(30,30,30), rgb(0,0,0));">
@@ -36,7 +40,7 @@
 </div>
 
 
-<div class="container-fluid"  id="quemsomos" style="padding: 0px">
+<div class="container-fluid"  id="quemsomos">
     
     <!-- a class d-flex-row-reverse serve para inverter os elementos na linha -->
     <div class="row d-flex flex-row-reverse">
@@ -57,7 +61,7 @@
     </div>
 </div>
 
-<div class="container-fluid"  id="quemsomos" style="padding: 0px">
+<div class="container-fluid"  id="quemsomos">
     
     <div class="row">
         <div class="col-md-6 my-0" style="background-image: linear-gradient(to right, rgb(30,30,30), rgb(0,0,0));">
@@ -75,7 +79,7 @@
 </div>
 
 
-<div class="container-fluid"  id="quemsomos" style="padding: 0px">
+<div class="container-fluid"  id="quemsomos">
     
     <!-- a class d-flex-row-reverse serve para inverter os elementos na linha -->
     <div class="row d-flex flex-row-reverse">
@@ -86,32 +90,32 @@
 
         <div class="col-md-6 card-text">
         
-        <h2 class="h2">Crenças e Valores</h2>
-        <hr style="border-color: blanchedalmond;">
-        <p>A nossa atividade é guiada por princípios e valores comuns que asseguram o empenho de todos os envolvidos. Esses princípios são comunicados a todos de forma a garantir a sua consistência interna e externa. São eles:</p>
+            <h2 class="h2">Crenças e Valores</h2>
+            <hr style="border-color: blanchedalmond;">
+            <p>A nossa atividade é guiada por princípios e valores comuns que asseguram o empenho de todos os envolvidos. Esses princípios são comunicados a todos de forma a garantir a sua consistência interna e externa. São eles:</p>
 
-        <ul>
+            <ul>
 
-            <li>A satisfação e a geração de valor ao cliente – Antecipar-se às necessidades dos nossos clientes é uma capacidade que incorporamos no nosso comportamento de todos os dias. Assim, buscamos constantemente o desenvolvimento de novas parcerias, como forma de privilegiar a pluralidade de conhecimentos e melhor contribuir com o aprimoramento da gestão das organizações clientes.</li>
+                <li>A satisfação e a geração de valor ao cliente – Antecipar-se às necessidades dos nossos clientes é uma capacidade que incorporamos no nosso comportamento de todos os dias. Assim, buscamos constantemente o desenvolvimento de novas parcerias, como forma de privilegiar a pluralidade de conhecimentos e melhor contribuir com o aprimoramento da gestão das organizações clientes.</li>
 
-            <li>A melhoria contínua em tudo que fazemos - A observação do ponto de vista do cliente e a respectiva criação de valor é o fator de sucesso de qualquer projeto de desenvolvimento. Somos flexíveis e capazes de satisfazer as necessidades dos nossos clientes encontrando soluções à sua medida.</li>
+                <li>A melhoria contínua em tudo que fazemos - A observação do ponto de vista do cliente e a respectiva criação de valor é o fator de sucesso de qualquer projeto de desenvolvimento. Somos flexíveis e capazes de satisfazer as necessidades dos nossos clientes encontrando soluções à sua medida.</li>
 
-            <li>O trabalho desenvolvido com espírito de equipe - As nossas pessoas são a fonte de vitalidade da nossa empresa. A vitalidade é um estado de espírito. Consiste na libertação diária da nossa energia positiva, para tudo o que fazemos.</li>
+                <li>O trabalho desenvolvido com espírito de equipe - As nossas pessoas são a fonte de vitalidade da nossa empresa. A vitalidade é um estado de espírito. Consiste na libertação diária da nossa energia positiva, para tudo o que fazemos.</li>
 
-            <li>A responsabilidade e o profissionalismo - O comportamento profissional deve estar presente em todas as etapas do relacionamento com clientes, parceiros, fornecedores e concorrentes por meio de transparência, colaboração e ética.</li>
+                <li>A responsabilidade e o profissionalismo - O comportamento profissional deve estar presente em todas as etapas do relacionamento com clientes, parceiros, fornecedores e concorrentes por meio de transparência, colaboração e ética.</li>
 
-            <li>O zelo com todos os públicos envolvidos - Os mais elevados padrões de integridade, transparência, respeito pelas regras, honestidade e responsabilidade social, estão presentes em tudo o que fazemos. Respeitamos, sem reservas, a legislação e regulamentos, bem como padrões éticos de conduta, integridade, transparência e honestidade moral e intelectual.</li>
+                <li>O zelo com todos os públicos envolvidos - Os mais elevados padrões de integridade, transparência, respeito pelas regras, honestidade e responsabilidade social, estão presentes em tudo o que fazemos. Respeitamos, sem reservas, a legislação e regulamentos, bem como padrões éticos de conduta, integridade, transparência e honestidade moral e intelectual.</li>
 
-            <li>O Bem estar e a Qualidade de Vida das Pessoas - Cremos que o sucesso de qualquer empreendimento está diretamente ligado à condição de satisfação das pessoas envolvidas.</li>
+                <li>O Bem estar e a Qualidade de Vida das Pessoas - Cremos que o sucesso de qualquer empreendimento está diretamente ligado à condição de satisfação das pessoas envolvidas.</li>
 
-        </ul>
-        </p>
+            </ul>
+        </div>
        
     </div>
 </div>
 
 
-<div class="container-fluid"  id="quemsomos" style="padding: 0px">
+<div class="container-fluid"  id="quemsomos">
     
     <div class="row">
         <div class="col-md-6 my-0" style="background-image: linear-gradient(to right, rgb(30,30,30), rgb(0,0,0));">
@@ -119,13 +123,13 @@
         </div>
         <div class="col-md-6 card-text">
         
-        <h2 class="h2">Metodologia</h2>
-        <hr style="border-color: blanchedalmond;">
-        <p>A metodologia de trabalho empregada pela VALENTIM Consultoria consiste em identificar claramente as necessidades do cliente, gerando um diagnóstico da situação. A partir daí, identifica no seu quadro de consultores ou na sua rede de parceiros, aquele que tem capacidade de desenvolver uma solução que propicie ao cliente os melhores resultados, de maneira a atender suas necessidades e expectativas.
+            <h2 class="h2">Metodologia</h2>
+            <hr style="border-color: blanchedalmond;">
+            <p>A metodologia de trabalho empregada pela VALENTIM Consultoria consiste em identificar claramente as necessidades do cliente, gerando um diagnóstico da situação. A partir daí, identifica no seu quadro de consultores ou na sua rede de parceiros, aquele que tem capacidade de desenvolver uma solução que propicie ao cliente os melhores resultados, de maneira a atender suas necessidades e expectativas.
 
-        Nossos treinamentos utilizam a metodologia de trabalho participativa, baseada em estudos de casos realizados com a participação dos colaboradores e através de aplicações práticas desenvolvidas em times de aprendizagem dentro da organização, onde todo processo de aprendizagem é utilizado, exercitando e confirmando a sua aplicabilidade.
+            Nossos treinamentos utilizam a metodologia de trabalho participativa, baseada em estudos de casos realizados com a participação dos colaboradores e através de aplicações práticas desenvolvidas em times de aprendizagem dentro da organização, onde todo processo de aprendizagem é utilizado, exercitando e confirmando a sua aplicabilidade.
 
-        </p>
+            </p>
 
         
         </div>

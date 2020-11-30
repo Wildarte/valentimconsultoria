@@ -1,4 +1,4 @@
-<div class="jumbotron jumbotron-fluid my-0" style="background-image: url('../public/img/services.jpg'); min-height: 90vh; padding-top: 40vh; width: 100wh;">
+<div class="jumbotron jumbotron-fluid" style="background-image: url('../public/img/services.jpg'); min-height: 90vh; padding-top: 40vh; width: 100wh; margin: 0px">
   <div class="container text-white">
     <h1 class="display-4">Serviços Oferecidos</h1>
     <p class="lead">Produtos e serviços com base no mercado e adaptados ao perfil de cada empresa</p>
@@ -6,9 +6,9 @@
   <p class="text-center"><a href="#servicos" class="js-scroll-trigger"><img style="width: 20vh;" src="<?=URL?>/public/img/arrowdown.gif" alt=""></p></a>
 </div>
 
-<div class="container my-2 text-justify" id="servicos">
+<div class="container  text-justify" id="servicos" style="margin: 0px auto">
 
-    <div class="row my-4">
+    <div class="row" style="margin-top: 10px;">
         <div class="col-12">
             <p class="text-justify">
             Nossos produtos e serviços foram formatados a partir das demandas do mercado em que atuamos, porém podem ser perfeitamente redesenhados, adaptando a linguagem para a realidade de cada empresa, através de intervenções estruturadas com base em um levantamento prévio das necessidades e características de cada cliente. São quatro as áreas de atuação em que prestamos nossos serviços:
@@ -18,7 +18,7 @@
 
     <div class="row">
         <div class="col-12" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeftBig;">
-            <div class="" style="padding: 5px 40px; border-top: 1px solid gray; border-bottom: 1px solid gray">
+            <div class="" style=" border-top: 1px solid gray; border-bottom: 1px solid gray">
                 <img class="card-img-top" src="holder.js/100x180/" alt="">
                 <ul class="card-body">
                     <h4 class="card-title">Serviços</h4>
@@ -40,7 +40,7 @@
     </div>
 </div>
 
-<div class="container-fluid text-justify">
+<div class="container-fluid text-justify" style="margin: 0px auto">
 
     <div class="container">
         <div class="row" id="content-palestras" style="margin-top: 10px;">
@@ -49,7 +49,7 @@
                 
                 <img style="min-width: 100%;" class="img-fluid" src="<?=URL?>/public/img/workshop.jpg" alt="">
             
-                <h2 class="h2 my-3">
+                <h2 class="h2" style="margin-top: 10px;">
                     Palestras e Workshops
                 </h2>
                 <p>
@@ -87,7 +87,7 @@
 
                 <img class="img-fluid" src="<?=URL?>/public/img/auditoria.jpg" alt="">
 
-                <h2 class="h4 my-3">
+                <h2 class="h4" style="margin-top: 10px;">
                     Auditorias
                 </h2>
                 <p>
@@ -117,13 +117,17 @@
     </div>
 </div>
 
-<div class="container-fluid" style="background-color:  #e6ffe6; padding-top: 15px">
+
+
+
+
+<div class="container-fluid" style="background-color: #e6ffe6; padding-top: 15px; margin: 0px auto">
     
     <div class="container">
 
-        <div class="row my-4" id="desenvolvimento">
+        <div class="row" style="margin-top: 10px;" id="desenvolvimento">
             <div class="col-12">
-                <h2 class="h2">Desenvolvimento Pessoal e Organizacional</h2>
+                <h3 class="h3">Desenvolvimento Pessoal e Organizacional</h3>
                 <p>
                     <ul>
                     <li>Diagnóstico Organizacional</li>
@@ -136,7 +140,7 @@
                 </p>
             </div>
             <div class="col-12" id="cursos">
-                <h2 class="h2">Cursos/Treinamentos</h2>
+                <h3 class="h3">Cursos/Treinamentos</h3>
                 <p>
                     <ul>
                         <li>Abertos</li>
@@ -147,11 +151,12 @@
 
         </div>
 
-        <div class="row my-4" id="auditorias">
+        <div class="row" style="margin-top: 10px;" id="auditorias">
             <div class="col-12">
-                <h2 class="h2">
+                <h3 class="h3">
                     Auditorias
-                </h2>
+                    
+                </h3>
                 <p>
                 Realizamos auditorias do Sistema de Gestão da Qualidade (ISO 9001), do Sistema de Gestão Ambiental (ISO 14001) e da Gestão de Pessoas (Trabalhista).
                 </p>
@@ -160,9 +165,9 @@
 
         <div class="row" id="palestras">
             <div class="col-12">
-                <h2 class="h2">
+                <h3 class="h3">
                     Palestras e Workshops
-                </h2>
+                </h3>
                 <P>Nossa metodologia para estes eventos é diferenciada e os participantes são mais que meros expectadores; todos atuam em dinâmicas de grupo, exercícios coletivos e games temáticos o tempo todo. Além do dinamismo que isso proporciona, a fixação dos conteúdos torna-se mais fácil e duradoura.</p>
                 <p>Por acreditarmos não ser possível separar o profissional do ser humano, procuramos sempre trabalhar com o emocional das pessoas, e não somente com o racional, criando um ambiente propício para o aprendizado onde, por vezes, os participantes de nossos programas riem, vibram e se emocionam.</p>
                 <p>Estes eventos podem contar com um ou mais temas, combinados e estruturados para melhor desenvolver competências estratégicas de:</p>
@@ -177,8 +182,12 @@
     </div>
 </div>
 
+
+
+
+
 <!-- Contact-->
-<section class="page-section" id="contact">
+<section class="page-section" id="contact" style="margin: 0 auto">
     <div class="container">
         <div class="text-center">
             <h2 class="section-heading text-uppercase">Nos envie um E-mail</h2>

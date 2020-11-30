@@ -19,17 +19,21 @@
     text-align: justify;
     background-image: linear-gradient(to right, rgb(0,0,0), rgb(30,30,30));
     color: #fff;
-    padding: 20px;
+    padding: 0px;
     margin: 0 auto;
 }
 
-@media(max-width: 500px){
+@media(max-width: 550px){
     .row img{
-        max-width: 100%;
+        max-width: 100wh;
         height: auto;
-        margin: 0 auto;
+        margin: -20px;
         padding: 0px;
     }
+    div{
+        width: 100%;
+    }
+
 }
 
 /* testei esse código para ajustar as imagens conforme o tamanho da tela mas não deu certo
