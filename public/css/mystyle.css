@@ -17,9 +17,9 @@
 
 .card-text{
     text-align: justify;
-    background-image: linear-gradient(to right, rgb(0,0,0), rgb(30,30,30));
+    background-color: #000;
     color: #fff;
-    padding: 0px;
+    padding: 20px;
     margin: 0 auto;
 }
 

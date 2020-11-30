@@ -13,7 +13,7 @@
     </div>
     
     <div class="row">
-        <div class="col-md-6 my-0" style="background-image: linear-gradient(to right, rgb(30,30,30), rgb(0,0,0));">
+        <div class="col-md-6 my-0" style="background-color: #000">
             <img  src="https://cdn.pixabay.com/photo/2018/03/03/20/02/laptop-3196481_960_720.jpg" alt="Responsive image" class="">
         </div>
         <div class="col-md-6 card-text">
@@ -45,7 +45,7 @@
     <!-- a class d-flex-row-reverse serve para inverter os elementos na linha -->
     <div class="row d-flex flex-row-reverse">
         
-        <div class="col-md-6 my-0" style="background-image: linear-gradient(to right, rgb(30,30,30), rgb(0,0,0));"  >
+        <div class="col-md-6 my-0" style="background-color: #000"  >
             <img  src="https://cdn.pixabay.com/photo/2018/04/25/08/40/hands-3348987_960_720.jpg" alt="Responsive image" class="">
         </div>
 
@@ -64,7 +64,7 @@
 <div class="container-fluid"  id="quemsomos">
     
     <div class="row">
-        <div class="col-md-6 my-0" style="background-image: linear-gradient(to right, rgb(30,30,30), rgb(0,0,0));">
+        <div class="col-md-6 my-0" style="background-color: #000">
             <img  src="https://cdn.pixabay.com/photo/2015/03/26/09/41/tie-690084_960_720.jpg" alt="Responsive image" class="">
         </div>
         <div class="col-md-6 card-text">
@@ -84,7 +84,7 @@
     <!-- a class d-flex-row-reverse serve para inverter os elementos na linha -->
     <div class="row d-flex flex-row-reverse">
         
-        <div class="col-md-6 my-0" style="background-image: linear-gradient(to right, rgb(30,30,30), rgb(0,0,0));">
+        <div class="col-md-6 my-0" style="background-color: #000">
             <img  src="https://cdn.pixabay.com/photo/2016/03/09/09/22/workplace-1245776_960_720.jpg" alt="Responsive image" class="">
         </div>
 
@@ -118,7 +118,7 @@
 <div class="container-fluid"  id="quemsomos">
     
     <div class="row">
-        <div class="col-md-6 my-0" style="background-image: linear-gradient(to right, rgb(30,30,30), rgb(0,0,0));">
+        <div class="col-md-6 my-0" style="background-color: #000">
             <img  src="https://cdn.pixabay.com/photo/2017/10/29/14/43/arrows-2899888_960_720.jpg" alt="Responsive image" class="">
         </div>
         <div class="col-md-6 card-text">
