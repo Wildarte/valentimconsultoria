@@ -6,7 +6,10 @@
   <p class="text-center"><a href="#quemsomos" class="js-scroll-trigger"><img style="width: 20vh;" src="<?=URL?>/public/img/arrowdown.gif" alt=""></p></a>
 </div>
 
-<div class="container-fluid"  id="quemsomos">
+<p style="text-align: center; color: #fed136; margin: 5px 5px"><a href="<?=URL?>">home</a> > empresa</p>
+
+
+<div class="container-fluid"  id="quemsomos" style="margin-top: 15px;">
 
     <div class="row">
         

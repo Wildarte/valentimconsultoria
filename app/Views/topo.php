@@ -7,12 +7,12 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav text-uppercase ml-auto">
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="<?=URL?>/paginas/empresa">Empresa</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="<?=URL?>/paginas/servicos">Serviços</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="<?=URL?>/paginas/blog">Blog</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="<?=URL?>/paginas/cursos">Cursos</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="<?=URL?>/paginas/links">Links</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="<?=URL?>/paginas/contato">Contato</a></li>
+                <li class="nav-item"><a class="nav-link" href="<?=URL?>/paginas/empresa">Empresa</a></li>
+                <li class="nav-item"><a class="nav-link" href="<?=URL?>/paginas/servicos">Serviços</a></li>
+                <!-- <li class="nav-item"><a class="nav-link" href="<?=URL?>/paginas/blog">Blog</a></li> --> 
+                <li class="nav-item"><a class="nav-link" href="<?=URL?>/paginas/cursos">Cursos</a></li>
+                <li class="nav-item"><a class="nav-link" href="<?=URL?>/paginas/links">Links</a></li>
+                <li class="nav-item"><a class="nav-link" href="<?=URL?>/paginas/contato">Contato</a></li>
             </ul>
         </div>
     </div>

@@ -1,12 +1,42 @@
 <!-- Masthead-->
-<header class="masthead">
-    <div class="container">
-        <div class="masthead-subheading line typing-animation">Valentim Consultoria</div>
-        <div class="masthead-heading text-uppercase d-2">Consultoria e Serviços em Gestão Empresarial</div>
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Saiba Mais</a>
-       
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="height: 100vh; width: 100vw;">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner" style="height: 100vh; width: 100vw;">
+    <div class="carousel-item active mycarousel-item" style="background-image: url('<?=URL?>/public/img/home/home-head.jpg')">
+      <div class="carousel-caption">
+            <h1 style="text-shadow: 2px 2px 5px black;">Valentim Consultoria</h1>
+            <h3 style="text-shadow: 2px 2px 5px black;">Consultoria e Serviços em Gestão Empresarial</h3>
+            <a href="<?=URL?>/paginas/empresa" class="btn btn-primary btn-lg">Saiba Mais</a>
+        </div>
     </div>
-</header>
+    <div class="carousel-item mycarousel-item" style="background-image: url('<?=URL?>/public/img/home/home-head2.jpg');">
+        <div class="carousel-caption">         
+            <h1 style="text-shadow: 2px 2px 5px black;">Serviços Prestados</h1>
+            <h3 style="text-shadow: 2px 2px 5px black;">Nossos produtos e serviços foram formatados a partir das demandas do mercado em que atuamos</h3>
+            <button class="btn btn-primary btn-lg">Saiba Mais</button>
+        </div>
+    </div>
+    <div class="carousel-item mycarousel-item" style="background-image: url('<?=URL?>/public/img/home/home-head3.jpg');">
+        <div class="carousel-caption">
+            <h1 style="text-shadow: 2px 2px 5px black;">Cursos</h1>
+            <h3 style="text-shadow: 2px 2px 5px black;">Cursos focados em entregar o melhor conteúdo para o aperfeioçamento de seus profissionais</h3>
+            <button class="btn btn-primary btn-lg">Saiba Mais</button>
+        </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
 <!-- Services-->
 
 <section class="page-section" id="services">
