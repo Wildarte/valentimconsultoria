@@ -10094,6 +10094,12 @@ img::-moz-selection {
     height: 2rem;
     transition: height 0.3s ease-in-out;
   }
+  /*im testing a code here for background in the navbar*/
+  #mainNav.navTop{
+    background-image: linear-gradient(to top, rgba(10,10,10,0.6), rgba(13,13,13,1));
+  }
+
+
   #mainNav.navbar-shrink {
     padding-top: 1rem;
     padding-bottom: 1rem;

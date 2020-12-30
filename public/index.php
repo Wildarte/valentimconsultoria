@@ -21,6 +21,8 @@ include './../app/Libraries/Controller.php';
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="<?=URL?>/public/css/style.css" rel="stylesheet" />
     <link rel="stylesheet" href="<?=URL?>/public/css/mystyle.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=3d|neon|outline|emboss|shadow-multiple">
     
 </head>
 <body id="page-top">
@@ -48,7 +50,7 @@ include './../app/Libraries/Controller.php';
         $(document).ready(function(){
 
             $('.carousel').carousel({
-                interval: 2000
+                interval: 3500
             })
 
             $('#btn-palestras').click(function(){

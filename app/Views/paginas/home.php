@@ -1,4 +1,4 @@
-<!-- Masthead-->
+<!-- Carousel-->
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="height: 100vh; width: 100vw;">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -6,10 +6,11 @@
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
   </ol>
   <div class="carousel-inner" style="height: 100vh; width: 100vw;">
-    <div class="carousel-item active mycarousel-item" style="background-image: url('<?=URL?>/public/img/home/home-head.jpg')">
-      <div class="carousel-caption">
-            <h1 style="text-shadow: 2px 2px 5px black;">Valentim Consultoria</h1>
-            <h3 style="text-shadow: 2px 2px 5px black;">Consultoria e Serviços em Gestão Empresarial</h3>
+    <div class="carousel-item active mycarousel-item" style="background-image: url('<?=URL?>/public/img/home/home-first.jpg')">
+    
+        <div class="carousel-caption">
+            <h1 class="font-effect-3d">Valentim Consultoria</h1>
+            <h3 class="font-effect-3d">Consultoria e Serviços em Gestão Empresarial</h3>
             <a href="<?=URL?>/paginas/empresa" class="btn btn-primary btn-lg">Saiba Mais</a>
         </div>
     </div>
@@ -37,38 +38,43 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
+<!-- Fim do Carousel -->
+
 <!-- Services-->
 
 <section class="page-section" id="services">
     <div class="container">
         <div class="text-center">
             <h2 class="section-heading text-uppercase">Serviços</h2>
-            <h3 class="section-subheading text-muted">Um pouco do que nossa empresa oferece</h3>
+            <h3 class="section-subheading text-muted">Descubra quais serviços podemos oferecer para sua empresa</h3>
         </div>
         <div class="row text-center my-card">
-            <a class="col-md-4" href="#">
+            <a class="col-md-4" href="<?=URL?>/paginas/cursos">
                 <span class="fa-stack fa-4x">
                     <i class="fas fa-circle fa-stack-2x text-primary"></i>
                     <i class="fas fa-book-reader fa-stack-1x fa-inverse"></i>
                 </span>
                 <h4 class="my-3">Cursos</h4>
                 <p class="text-muted">Oferecemos cursos voltados ao crescimento conjunto da sua empresa...</p>
+                <button class="btn btn-primary">Saiba Mais</button>
             </a>
-            <a class="col-md-4" href="#">
+            <a class="col-md-4" href="<?=URL?>/paginas/servicos">
                 <span class="fa-stack fa-4x">
                     <i class="fas fa-circle fa-stack-2x text-primary"></i>
                     <i class="fas fa-user-tie fa-stack-1x fa-inverse"></i>
                 </span>
                 <h4 class="my-3">Consultoria e Coaching</h4>
                 <p class="text-muted">Atendemos as necessidades de interação da sua equipe e...</p>
+                <button class="btn btn-primary">Saiba Mais</button>
             </a>
-            <a class="col-md-4" href="#">
+            <a class="col-md-4" href="<?=URL?>/paginas/servicos/#cursos">
                 <span class="fa-stack fa-4x">
                     <i class="fas fa-circle fa-stack-2x text-primary"></i>
                     <i class="fas fa-chalkboard-teacher fa-stack-1x fa-inverse"></i>
                 </span>
                 <h4 class="my-3">Palestras</h4>
-                <p class="text-muted">Conteúdos adaptados a sua empresa...</p>
+                <p class="text-muted">Conteúdos adaptados a realidade e necessidades da sua empresa...</p>
+                <button class="btn btn-primary">Saiba Mais</button>
             </a>
         </div>
     </div>
