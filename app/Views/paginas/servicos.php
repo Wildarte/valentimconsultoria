@@ -195,32 +195,32 @@
             <h2 class="section-heading text-uppercase">Nos envie um E-mail</h2>
             <h3 class="section-subheading text-muted">Para contatos mais formais</h3>
         </div>
-        <form id="contactForm" name="sentMessage" novalidate="novalidate">
+        <form action="<?=URL?>/public/assets/mail/contact_me.php" method="POST" id="contactForm" name="sentMessage" novalidate="novalidate">
             <div class="row align-items-stretch mb-5">
                 <div class="col-md-6">
                     <div class="form-group">
-                        <input class="form-control" id="name" type="text" placeholder="Your Name *" required="required" data-validation-required-message="Please enter your name." />
+                        <input class="form-control" name="name" id="name" type="text" placeholder="Seu Nome *" required="required" data-validation-required-message="Por favor seu nome." />
                         <p class="help-block text-danger"></p>
                     </div>
                     <div class="form-group">
-                        <input class="form-control" id="email" type="email" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address." />
+                        <input class="form-control" name="email" id="email" type="email" placeholder="Seu Email *" required="required" data-validation-required-message="Por favor seu e-mail." />
                         <p class="help-block text-danger"></p>
                     </div>
                     <div class="form-group mb-md-0">
-                        <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" required="required" data-validation-required-message="Please enter your phone number." />
+                        <input class="form-control" name="phone" id="phone" type="tel" placeholder="Seu Telefone *" required="required" data-validation-required-message="Por favor seu Telefone." />
                         <p class="help-block text-danger"></p>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group form-group-textarea mb-md-0">
-                        <textarea class="form-control" id="message" placeholder="Your Message *" required="required" data-validation-required-message="Please enter a message."></textarea>
+                        <textarea class="form-control" name="message" id="message" placeholder="Sua Mensagem *" required="required" data-validation-required-message="Por favor coloque sua mensagem."></textarea>
                         <p class="help-block text-danger"></p>
                     </div>
                 </div>
             </div>
             <div class="text-center">
                 <div id="success"></div>
-                <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Enviar Mensagem</button>
+                <input class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit" name="submit" value="Enviar">
             </div>
         </form>
     </div>
