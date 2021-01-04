@@ -9,8 +9,8 @@
     <div class="carousel-item active mycarousel-item" style="background-image: url('<?=URL?>/public/img/home/home-first.jpg')">
     
         <div class="carousel-caption">
-            <h1 class="font-effect-3d">Valentim Consultoria</h1>
-            <h3 class="font-effect-3d">Consultoria e Serviços em Gestão Empresarial</h3>
+            <h1 style="text-shadow: 2px 2px 5px black;">Valentim Consultoria</h1>
+            <h3 style="text-shadow: 2px 2px 5px black;">Consultoria e Serviços em Gestão Empresarial</h3>
             <a href="<?=URL?>/paginas/empresa" class="btn btn-primary btn-lg">Saiba Mais</a>
         </div>
     </div>
