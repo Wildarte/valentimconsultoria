@@ -11,7 +11,7 @@ include './../app/Libraries/Controller.php';
     <meta name="description" content="consultoria, coaching, coach, gestão de recursos humanos" />
     <meta name="author" content="WildArte" />
     <title><?= APP_NOME ?></title>
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="<?=URL?>/public/assets/img/favicon.ico" />
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
     <!-- Google fonts-->

@@ -1,5 +1,5 @@
 <!-- Footer-->
-<footer class="footer py-4">
+<footer class="footer py-4" style="border-top: 1px solid #ddd;">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-4 text-lg-left">Copyright © ValentimConsultoria 2020</div>

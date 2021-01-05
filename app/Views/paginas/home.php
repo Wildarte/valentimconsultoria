@@ -79,109 +79,76 @@
         </div>
     </div>
 </section>
-<!-- Portfolio Grid-->
-<section class="page-section bg-light" id="portfolio">
-    <div class="container">
-        <div class="text-center">
-            <h2 class="section-heading text-uppercase">Portfolio</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+
+<section class="container-fluid" id="portfolio" style="background-image: url('https://cdn.pixabay.com/photo/2020/07/08/04/12/work-5382501_960_720.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;">
+    <div class="container-fluid" style="background: rgba(20, 200, 230, 0.7);">
+        <div class="text-center" style="margin: 20px 0px; padding: 20px 0px">
+            <h2 class="section-heading text-uppercase text-white wild-text-shadow">Cursos</h2>
+            <hr style="border: 1px solid #fff;">
+            <h3 class="section-subheading text-white wild-text-shadow">Cursos e Treinamentos</h3>
         </div>
-        <!--  
+        
         <div class="row">
             <div class="col-lg-4 col-sm-6 mb-4">
                 <div class="portfolio-item">
-                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                    <a class="portfolio-link" href="<?=URL?>/paginas/cursos">
                         <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            <div class="portfolio-hover-content"><button class="btn btn-primary">Saiba Mais</button></div>
                         </div>
-                        <img class="img-fluid" src="assets/img/portfolio/01-thumbnail.jpg" alt="" />
+                        <img class="img-fluid" src="https://cdn.pixabay.com/photo/2015/05/28/14/53/ux-788002_960_720.jpg" alt="" />
                     </a>
                     <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading">Threads</div>
-                        <div class="portfolio-caption-subheading text-muted">Illustration</div>
+                        <div class="portfolio-caption-heading">Sob Medida</div>
+                        <div class="portfolio-caption-subheading text-muted">Nossos Cursos e Treinamentos são feitos sob medida para sua empresa</div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6 mb-4">
                 <div class="portfolio-item">
-                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+                    <a class="portfolio-link" href="<?=URL?>/paginas/cursos">
                         <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            <div class="portfolio-hover-content"><button class="btn btn-primary">Saiba Mais</button></div>
                         </div>
-                        <img class="img-fluid" src="assets/img/portfolio/02-thumbnail.jpg" alt="" />
+                        <img class="img-fluid" src="https://cdn.pixabay.com/photo/2019/02/10/09/21/lecture-3986809_960_720.jpg" alt="" />
                     </a>
                     <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading">Explore</div>
-                        <div class="portfolio-caption-subheading text-muted">Graphic Design</div>
+                        <div class="portfolio-caption-heading">In Company</div>
+                        <div class="portfolio-caption-subheading text-muted">Cursos/Treinamentos realizados no local de sua escolha</div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6 mb-4">
                 <div class="portfolio-item">
-                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+                    <a class="portfolio-link" href="<?=URL?>/paginas/cursos">
                         <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            <div class="portfolio-hover-content"><button class="btn btn-primary">Saiba Mais</button></div>
                         </div>
-                        <img class="img-fluid" src="assets/img/portfolio/03-thumbnail.jpg" alt="" />
+                        <img class="img-fluid" src="<?=URL?>/public/img/home/certificado.jpg" alt="" />
                     </a>
                     <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading">Finish</div>
-                        <div class="portfolio-caption-subheading text-muted">Identity</div>
+                        <div class="portfolio-caption-heading">Certificado</div>
+                        <div class="portfolio-caption-subheading text-muted">Certificado entregue nas capacitações e treinamentos</div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-                <div class="portfolio-item">
-                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                        </div>
-                        <img class="img-fluid" src="assets/img/portfolio/04-thumbnail.jpg" alt="" />
-                    </a>
-                    <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading">Lines</div>
-                        <div class="portfolio-caption-subheading text-muted">Branding</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
-                <div class="portfolio-item">
-                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                        </div>
-                        <img class="img-fluid" src="assets/img/portfolio/05-thumbnail.jpg" alt="" />
-                    </a>
-                    <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading">Southwest</div>
-                        <div class="portfolio-caption-subheading text-muted">Website Design</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div class="portfolio-item">
-                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                        </div>
-                        <img class="img-fluid" src="assets/img/portfolio/06-thumbnail.jpg" alt="" />
-                    </a>
-                    <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading">Window</div>
-                        <div class="portfolio-caption-subheading text-muted">Photography</div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
+            </div>  
+        </div>
     </div>
 </section>
 <!-- About-->
 <section class="page-section" id="about">
     <div class="container">
         <div class="text-center">
-            <h2 class="section-heading text-uppercase">About</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h2 class="section-heading text-uppercase">A Empresa</h2>
+            <h3 class="section-subheading text-muted">Nossa Missão</h3>
+            <p style="text-align: justify;">Somos uma empresa que busca constantemente a excelência da qualidade, através da inovação e confiabilidade de nossos serviços e tem por objetivo atuar como estrutura complementar de Recursos Humanos, apoiando a gestão do capital humano como alavanca diferencial na geração de resultados satisfatórios para nossos clientes e colaboradores.
+            Diariamente buscamos cumprir esta missão respondendo às necessidades e exigências que nos são colocadas, através da disponibilização de várias opções de produtos e serviços, permitindo a cada cliente uma solução à sua medida.</p>
+
+            <div>
+                <a href="<?=URL?>/paginas/empresa" class="btn btn-primary">Saiba Mais</a>
+            </div>
         </div>
+
+<!--
         <ul class="timeline">
             <li>
                 <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="" /></div>
@@ -235,56 +202,11 @@
                 </div>
             </li>
         </ul>
+-->
     </div>
 </section>
-<!-- Team-->
-<section class="page-section bg-light" id="team">
-    <div class="container">
-        <div class="text-center">
-            <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-        </div>
-        <!--  
-        <div class="row">
-            <div class="col-lg-4">
-                <div class="team-member">
-                    <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="" />
-                    <h4>Kay Garland</h4>
-                    <p class="text-muted">Lead Designer</p>
-                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="team-member">
-                    <img class="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt="" />
-                    <h4>Larry Parker</h4>
-                    <p class="text-muted">Lead Marketer</p>
-                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="team-member">
-                    <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="" />
-                    <h4>Diana Petersen</h4>
-                    <p class="text-muted">Lead Developer</p>
-                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
-                </div>
-            </div>
-        </div>
 
-        -->
-        <div class="row">
-            <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p></div>
-        </div>
-    </div>
-</section>
-<!-- Clients-->
+<!-- Clients
 <div class="py-5">
     <div class="container">
         <div class="row">
@@ -303,7 +225,7 @@
         </div>
     </div>
 </div>
-<!-- Contact-->
+Contact-->
 <section class="page-section" id="contact">
     <div class="container">
         <div class="text-center">

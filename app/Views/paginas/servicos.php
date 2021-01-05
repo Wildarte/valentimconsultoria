@@ -1,12 +1,13 @@
 <div class="jumbotron jumbotron-fluid" style="background-image: url('../public/img/services.jpg'); min-height: 90vh; padding-top: 40vh; width: 100wh; margin: 0px">
   <div class="container text-white">
-    <h1 class="display-4">Serviços Oferecidos</h1>
-    <p class="lead">Produtos e serviços com base no mercado e adaptados ao perfil de cada empresa</p>
+    <h1 class="wild-text-shadow">Serviços Oferecidos</h1>
+    <p class="lead wild-text-shadow">Produtos e serviços com base no mercado e adaptados ao perfil de cada empresa</p>
   </div>
   <p class="text-center"><a href="#servicos" class="js-scroll-trigger"><img style="width: 20vh;" src="<?=URL?>/public/img/arrowdown.gif" alt=""></p></a>
 </div>
 
 <p style="text-align: center; color: #fed136; margin: 5px 5px"><a href="<?=URL?>">home</a> > serviços</p>
+
 
 <div class="container  text-justify" id="servicos" style="margin: 0px auto">
 
