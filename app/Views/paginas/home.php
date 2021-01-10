@@ -235,6 +235,7 @@ Contact-->
         <form action="<?=URL?>/public/assets/mail/contact_me.php" method="POST" id="contactForm" name="sentMessage" novalidate="novalidate">
             <div class="row align-items-stretch mb-5">
                 <div class="col-md-6">
+                    
                     <div class="form-group">
                         <input class="form-control" name="name" id="name" type="text" placeholder="Seu Nome *" required="required" data-validation-required-message="Por favor seu nome." />
                         <p class="help-block text-danger"></p>
@@ -248,6 +249,7 @@ Contact-->
                         <p class="help-block text-danger"></p>
                     </div>
                 </div>
+                
                 <div class="col-md-6">
                     <div class="form-group form-group-textarea mb-md-0">
                         <textarea class="form-control" name="message" id="message" placeholder="Sua Mensagem *" required="required" data-validation-required-message="Por favor coloque sua mensagem."></textarea>
@@ -255,10 +257,14 @@ Contact-->
                     </div>
                 </div>
             </div>
+            <div class="d-flex justify-content-center my-4">
+                <div id="html_element"></div>
+            </div>
             <div class="text-center">
                 <div id="success"></div>
                 <input class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit" name="submit" value="Enviar">
             </div>
+            
         </form>
     </div>
 </section>

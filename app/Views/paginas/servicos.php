@@ -219,6 +219,9 @@
                     </div>
                 </div>
             </div>
+            <div class="d-flex justify-content-center my-4">
+                <div id="html_element"></div>
+            </div>
             <div class="text-center">
                 <div id="success"></div>
                 <input class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit" name="submit" value="Enviar">

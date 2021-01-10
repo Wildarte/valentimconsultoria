@@ -24,6 +24,14 @@ include './../app/Libraries/Controller.php';
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=3d|neon|outline|emboss|shadow-multiple">
     
+    <script type="text/javascript">
+      var onloadCallback = function() {
+        grecaptcha.render('html_element', {
+          'sitekey' : '6Lf0AicaAAAAAMAB0kk3ghUrtNSx3hH5lEFbFdi_'
+        });
+      };
+    </script>
+
 </head>
 <body id="page-top">
     
@@ -33,6 +41,12 @@ include './../app/Libraries/Controller.php';
         include '../app/Views/rodape.php';
     ?>
 
+    <?php
+    
+    ?>
+    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+        async defer>
+    </script>
     <!-- Bootstrap core JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
@@ -46,6 +60,7 @@ include './../app/Libraries/Controller.php';
 
     <script src="<?=URL?>/public/js/scripts.js"></script>
     <script src="<?=URL?>/public/js/themejs.js"></script>
+
     <script>
         $(document).ready(function(){
 
