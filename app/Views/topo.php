@@ -1,8 +1,8 @@
 <!-- Navigation-->
 
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top troca" id="mainNav">
+<nav class="navbar navbar-expand-lg fixed-top troca navTop" id="mainNav" style="padding: 1px 10px; border-bottom: 1px solid #bbb">
     <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="<?=URL?>" ><img  style="min-height: 12vh; max-height: 20vh;" src="<?=URL?>/public/img/logo_valentim.png" alt="" /></a>
+        <a class="navbar-brand js-scroll-trigger" href="<?=URL?>" ><img  style="min-height: 12vh; max-height: 20vh;" src="<?=URL?>/public/img/logo_valentim_light_b.png" alt="" /></a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fas fa-bars ml-1"></i>
         </button>

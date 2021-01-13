@@ -80,7 +80,7 @@
     </div>
 </section>
 
-<section class="container-fluid" id="portfolio" style="background-image: url('https://cdn.pixabay.com/photo/2020/07/08/04/12/work-5382501_960_720.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;">
+<section class="container-fluid" id="portfolio" style="background-image: url('https://cdn.pixabay.com/photo/2015/10/12/15/07/buildings-984195_960_720.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;">
     <div class="container-fluid" style="background: rgba(20, 200, 230, 0.7);">
         <div class="text-center" style="margin: 20px 0px; padding: 20px 0px">
             <h2 class="section-heading text-uppercase text-white wild-text-shadow">Cursos</h2>

@@ -47,8 +47,8 @@
 
 /*minha pequena alteração nos itens do menu*/
 .nav-item a{
+    color: #0065AF !important;
     font-weight: 600;
-    text-shadow: 10px 10px 20px black;
 }
 
 .mycarousel-item{

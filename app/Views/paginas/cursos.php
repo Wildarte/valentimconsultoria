@@ -56,6 +56,10 @@
 
 </section>
 
+
+<!--
+
+
 <section style="padding: 40px 0;">
 
     <div class="container">
@@ -64,6 +68,7 @@
                 <p style="text-align: justify;">Os treinamentos são voltados para turmas de até 20 participantes (número recomendado) sendo possível ampliar este número para até 30 pessoas, desde que oferecidas condições de espaço e conforto aos participantes.</p>
             </div>
         </div>
+
         <div class="row">
             <div class="col-12">
                 <h5 class="text-center">Cursos Disponíveis</h5>

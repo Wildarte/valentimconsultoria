@@ -34,7 +34,7 @@ if($response->success):
          // Passando os dados obtidos pelo formulário para as variáveis abaixo
          $nomeremetente = $form['name'];
          $emailremetente = trim($form['email']);
-         $emaildestinatario = 'wildarte10@gmail.com';// Digite seu e-mail aqui, lembrando que o e-mail deve estar em seu servidor web
+         $emaildestinatario = 'claudio@valentimconsultoria.com.br';// Digite seu e-mail aqui, lembrando que o e-mail deve estar em seu servidor web
          $telefone = $form['phone'];
          $assunto = 'Mensagem para Valentim Consultoria';
          $mensagem = $form['message'];

@@ -14,79 +14,101 @@
       <div class="col-12">
       <h1 class="text-center my-4">Links úteis</h1>
       <table class="table table-hover">
-        
         <tbody>
           <tr>
-            <td><i class="fas fa-link"></i></td>
+            <td>
+              <div style="width: 20vh;">
+                <img style="width: 100%;" src="<?=URL?>/public/img/iconlinks/sebrae.png" alt="">
+              </div>
+            </td>
             <td><a href="https://www.sebrae.com.br/sites/PortalSebrae" target="_blank">Sebrae</a></td>
           </tr>
           <tr>
-            <td><i class="fas fa-link"></i></td>
+          <td>
+              <div style="width: 20vh;">
+                <img style="width: 100%;" src="<?=URL?>/public/img/iconlinks/senac.png" alt="">
+              </div>
+            </td>
             <td><a href="https://www.senac.br/" target="_blank">Senac</a></td>
           </tr>
           <tr>
-            <td><i class="fas fa-link"></i></td>
+            <td>
+              <div style="width: 20vh;">
+                <img style="width: 100%;" src="<?=URL?>/public/img/iconlinks/CIEE.png" alt="">
+              </div>
+            </td>
             <td><a href="https://portal.ciee.org.br/" target="_blank">CIEE</a></td>
           </tr>
           <tr>
-            <td><i class="fas fa-link"></i></td>
-            <td><a href="https://www.bcb.gov.br/" target="_blank">Banco Central</a></td>  
-          </tr>
-          <tr>
-            <td><i class="fas fa-link"></i></td>
+          <td>
+              <div style="width: 20vh;">
+                <img style="width: 100%;" src="<?=URL?>/public/img/iconlinks/bb.png" alt="">
+              </div>
+            </td>
             <td><a href="https://www.bb.com.br/pbb/pagina-inicial#/" target="_blank">Banco do Brasil</a></td>
           </tr>
           <tr>
-            <td><i class="fas fa-link"></i></td>
-            <td><a href="https://www.gov.br/cade/pt-br" target="_blank">CADE - Conselho Administrativo de Defesa Econômica</a></td>
-          </tr>
-          <tr>
-            <td><i class="fas fa-link"></i></td>
+          <td>
+              <div style="width: 20vh;">
+                <img style="width: 100%;" src="<?=URL?>/public/img/iconlinks/ibge-original.jpg" alt="">
+              </div>
+            </td>
             <td><a href="https://www.ibge.gov.br/" target="_blank">IBGE - Instituto Brasileiro de Geografia e Estatística</a></td>
           </tr>
           <tr>
-            <td><i class="fas fa-link"></i></td>
-            <td><a href="https://www.procon.sp.gov.br/" target="_blank">Procon - São Paulo</a></td>
+            <td>
+              <div style="width: 20vh;">
+                <img style="width: 100%;" src="<?=URL?>/public/img/iconlinks/acsp.png" alt="">
+              </div>
+            </td>
+            <td><a href="https://acsp.com.br/" target="_blank">Associação Comercial do Estado de São Paulo</a></td>
           </tr>
           <tr>
-            <td><i class="fas fa-link"></i></td>
-            <td><a href="https://www.aasp.org.br/" target="_blank">AASP - Associação dos Advogados de São Paulo</a></td>
-          </tr>
-          <tr>
-            <td><i class="fas fa-link"></i></td>
-            <td><a href="https://acsp.com.br/" target="_blank">Associação Comercial do Estado de São Paulo
-</a></td>
-          </tr>
-          <tr>
-            <td><i class="fas fa-link"></i></td>
-            <td><a href="https://www.gov.br/pgfn/pt-br" target="_blank">Procuradoria Geral da Fazenda</a></td>
-          </tr>
-          <tr>
-            <td><i class="fas fa-link"></i></td>
+          <td>
+              <div style="width: 20vh;">
+                <img style="width: 100%;" src="<?=URL?>/public/img/iconlinks/receita.png" alt="">
+              </div>
+            </td>
             <td><a href="https://www.gov.br/receitafederal/pt-br" target="_blank">Receita Federal</a></td>
           </tr>
           <tr>
-            <td><i class="fas fa-link"></i></td>
+            <td>
+              <div style="width: 20vh;">
+                <img style="width: 100%;" src="<?=URL?>/public/img/iconlinks/trabalho.jpeg" alt="">
+              </div>
+            </td>
             <td><a href="https://www.gov.br/previdencia/pt-br" target="_blank">Secretaria Especial de Previdência e Trabalho</a></td>
           </tr>
           <tr>
-            <td><i class="fas fa-link"></i></td>
-            <td><a href="https://www.caixa.gov.br/Paginas/home-caixa.aspx" target="_blank">Caixa Econômica Federal</a></td>
-          </tr>
-          <tr>
-            <td><i class="fas fa-link"></i></td>
+            <td>
+              <div style="width: 20vh;">
+                <img style="width: 100%;" src="<?=URL?>/public/img/iconlinks/bne.png" alt="">
+              </div>
+            </td>
             <td><a href="https://www.bne.com.br/" target="_blank">Banco Nacional de Empregos</a></td>
           </tr>
           <tr>
-            <td><i class="fas fa-link"></i></td>
+            <td>
+              <div style="width: 20vh;">
+                <img style="width: 100%;" src="<?=URL?>/public/img/iconlinks/curriculum.png" alt="">
+              </div>
+            </td>
             <td><a href="https://www.curriculum.com.br/candidatos" target="_blank">curriculum.com.br</a></td>
           </tr>
           <tr>
-            <td><i class="fas fa-link"></i></td>
+            <td>
+              <div style="width: 20vh;">
+                <img style="width: 100%;" src="<?=URL?>/public/img/iconlinks/empregos.png" alt="">
+              </div>
+            </td>
             <td><a href="https://www.empregos.com.br/" target="_blank">empregos.com.br</a></td>
           </tr>
           <tr>
-            <td><i class="fas fa-link"></i></td>
+            <td>
+              <div style="width: 20vh;">
+                <img style="width: 100%;" src="<?=URL?>/public/img/iconlinks/abtd2.png" alt="">
+              </div>
+            </td>
             <td><a href="https://abtd.com.br/" target="_blank">ABTD - Associação brasileira de Treinamento e Desenvolvimento</a></td>
           </tr>
         </tbody>

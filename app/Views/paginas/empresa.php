@@ -12,10 +12,6 @@
 <div class="container-fluid"  id="quemsomos" style="margin-top: 15px;">
 
     <div class="row">
-        
-    </div>
-    
-    <div class="row">
         <div class="col-md-6">
             <img  src="https://cdn.pixabay.com/photo/2018/03/03/20/02/laptop-3196481_960_720.jpg" alt="Responsive image" class="">
         </div>
@@ -88,7 +84,7 @@
     <div class="row d-flex flex-row-reverse">
         
         <div class="col-md-6">
-            <img  src="https://cdn.pixabay.com/photo/2016/03/09/09/22/workplace-1245776_960_720.jpg" alt="Responsive image" class="">
+            <img  src="https://cdn.pixabay.com/photo/2015/12/04/14/49/hand-1076597_960_720.jpg" alt="Responsive image" class="">
         </div>
 
         <div class="col-md-6 card-text">
